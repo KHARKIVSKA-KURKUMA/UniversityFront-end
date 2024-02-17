@@ -1,0 +1,33 @@
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+}
+/* --------------------------------- header --------------------------------- */
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ---------------------------------- hero ---------------------------------- */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+}
+/* ------------------------------- tech stack ------------------------------- */
+.tech-stack-section ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* -------------------------------- projects -------------------------------- */
+.projects-section .inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.projects-section .inner article {
+  width: 30%;
+}
+/* --------------------------------- footer --------------------------------- */
+.footer .info {
+  display: flex;
+}
